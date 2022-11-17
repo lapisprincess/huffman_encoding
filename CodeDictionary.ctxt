@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CodeDictionary
+comment0.text=\n\ This\ class\ accepts\ a\ text\ file\ and\ builds\ a\ \n\ Huffman\ code\ dictionary\ based\ on\ character\ frequencies.\n\ \n\ @author\ David\n\ @version\ 12/29/16\n
+comment1.params=key
+comment1.target=java.lang.String\ lookup(java.lang.String)
+comment1.text=\n\ Searches\ through\ the\ dictionary\ and\ finds\ the\ \n\ value\ mapped\ to\ the\ given\ key.\n\ \n\ @param\ key\n\ @return\ the\ value\ mapped\ by\ the\ given\ parameter\n
+comment2.params=value
+comment2.target=java.lang.String\ reverseLookup(java.lang.String)
+comment2.text=\n\ Searches\ through\ the\ dictionary\ and\ finds\ the\ key\ \n\ mapped\ to\ the\ given\ value.\ If\ multiple\ keys\ are\ mapped,\ \n\ only\ the\ first\ occurrence\ is\ returned.\n\ \n\ @param\ value\n\ @return\ the\ key\ mapped\ from\ the\ given\ parameter\n
+numComments=3
