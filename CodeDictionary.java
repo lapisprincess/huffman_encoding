@@ -17,7 +17,7 @@ public interface CodeDictionary{
 
     /**
      * Searches through the dictionary and finds the key 
-     * mapped to the given value. If multiple keys are mapped, 
+     * mapped to the given value, if multiple keys are mapped, 
      * only the first occurrence is returned.
      * 
      * @param value

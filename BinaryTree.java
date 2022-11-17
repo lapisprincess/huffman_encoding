@@ -1,11 +1,5 @@
-/**
- * This is an implementation of a binary tree
- *
- * @author David
- * @version 8/9/17
- */
-public class BinaryTree<E> {
-    protected Node<E> root;   /** this is the root node */
+public class BinaryTree<E> implements Comparable<BinaryTree> {
+    protected Node<E> root;
 
     /**
      * Creates an empty binary tree
@@ -191,5 +185,10 @@ public class BinaryTree<E> {
         public String toString() {
             return data.toString();
         }
+    }
+
+    @Override
+    public int compareTo(BinaryTree<E> t) {
+        this.root.com
     }
 }

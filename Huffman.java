@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
@@ -32,7 +33,11 @@ public class Huffman {
      * @param inFile
      */
     public void buildDictionary(String inFile) {
-        this.dictionary = new HuffmanDictionary(inFile);
+        try {
+            this.dictionary = new HuffmanDictionary(inFile);
+        } catch (FileNotFoundException E) {
+            System.out.println("Invalid filename: " + E.toString());
+        }
     }
 
     /**
